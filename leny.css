@@ -1,0 +1,303 @@
+
+body{
+    background-color: rgb(4, 25, 44);
+}
+
+
+.startScreen{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    z-index: 1;
+    text-shadow: 1px 1px rgb(20, 224, 197);
+}
+.startScreen:hover{
+    background-color: rgb(20, 224, 197);
+    cursor: pointer;
+
+  }
+  #mission{font-size: 15px;
+color:rgb(20, 224, 197) ;}
+.restart{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(233, 35, 35);
+    z-index: 1;
+}
+.startScreenNone{
+    display: none;
+}
+.ozone{
+    width: 1350px;
+    height: 45px;
+    background-color: #030c25;
+    position: fixed;
+    margin: auto;
+    z-index: -1;
+    top: 0px;
+
+}
+.cloudSpace{
+    width: 1350px;
+    height: 300px;
+    background-color: rgb(22, 216, 223);
+    position: fixed;
+    margin: auto;
+    z-index: -1;
+    top: 45px;
+   opacity: 0.5;
+}
+.airSpace{
+    width: 1350px;
+    height: 250px;
+    background-color:rgba(255, 255, 255, 0.911);
+    position: fixed;
+    margin: auto;
+    z-index: -1;
+    top: 345px;
+    opacity: 0.3;
+}
+.ground{
+    width: 1350px;
+    height: 100px;
+    background-color:rgb(1, 0, 2);
+    position: fixed;
+    margin: auto;
+    z-index: -1;
+    top: 595px;
+}
+
+.plane{
+  
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(102, 30, 150);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+}
+.jety1{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(252, 30, 30);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:1250px;
+    top: 345px;
+    
+}
+.jety2{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(126, 231, 56);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:1250px;
+    top: 460px;
+}
+.jety3{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(226, 30, 252);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:900px
+}
+.jety4{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(4, 8, 63);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:400px
+}
+.jety5{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(3, 201, 13);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:1250px;
+    top: 150;
+}
+.jety6{
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(252, 230, 30);
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left:1250px;
+    top: 250px;
+}
+.game{display: none;}
+.gameshow{display: block;}
+.score{
+    background-color: rgb(255, 0, 0);
+    font-family: fantasy;
+    z-index: 1;
+    width:auto;
+    height: auto;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+} 
+.r{background-color: rgb(41, 134, 138);
+    font-family: fantasy;
+    z-index: 1;
+    width:auto;
+    height: 100px;
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+overflow: hidden;}
+.rn{display: none;}
+.welcome{font-size: 55px;
+font-family: fantasy;
+text-align: center;}
+.click{font-size: 20px;
+    font-family: fantasy;
+    text-align: center;}
+   
+.starty{display: none;}
+.menuPageShow{
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.menu{display: none;}
+input{
+    border-color: white;
+    border-bottom: 1px ;
+    border-right: 1px ;
+
+    text-shadow: 1px 1px rgb(20, 224, 197);
+
+    background-color: rgb(4, 25, 44);
+
+    height: 100px;
+    width: auto;
+    font-size: 50px;
+    font-family: fantasy;
+    
+}
+input:hover{
+background-color: white;
+cursor: pointer;
+
+}
+.aboutMe{
+    text-shadow: 1px 1px rgb(20, 224, 197);
+
+    font-size:  30px;;
+    background-color: rgb(4, 25, 44);
+
+    height: 500px;
+    width: 400px;
+    font-family: fantasy;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    border-color: white;
+    border-bottom: 1px ;
+    border-right: 1px ;
+
+    color: white;
+    opacity: 0.8;
+}
+.aboutMeHide{display: none;}
+#x{
+    text-shadow: none;
+    top: 0px;
+right: 0px;
+position: absolute;
+font-size: 25px;
+background-color: rgb(6, 22, 114);
+border-radius: 5px;
+color: #000;
+}
+#x:hover{background-color: rgb(30, 42, 151);
+cursor: pointer;
+}
+#cont{
+    font-size: 20px;
+}
+#contact{
+    text-shadow: none;
+    color: #000;
+    font-size: 20px;
+    background-color: white;
+
+
+}
+#contact:hover{
+    opacity: 0.1;
+}
+#xh{
+    text-shadow: none;
+    top: 0px;
+right: 0px;
+position: absolute;
+font-size: 25px;
+background-color: rgb(6, 22, 114);
+border-radius: 5px;
+color: #000;
+}
+#xh:hover{background-color: red;
+cursor: pointer;
+}
+.helpNotes{
+    text-shadow: 0.5px 0.5px rgb(20, 224, 197);
+
+    font-size:  20px;;
+    background-color: rgb(4, 25, 44);
+
+    height: 500px;
+    width: 400px;
+    font-family: fantasy;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    border-color: white;
+    border-bottom: 1px ;
+    border-right: 1px ;
+
+    color: white;
+    opacity: 0.8;
+}
+.helpNotesHide{display: none;}
+#feedback{
+    text-shadow: none;
+    color: #000;
+    font-size: 20px;
+    background-color: white;
+
+
+}
+#feedback:hover{
+    opacity: 0.1;
+
+}
+.rest{
+    background-color: rgb(199, 58, 204);
+
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    z-index: 1;
+    text-shadow: 1px 1px rgb(20, 224, 197);
+    font-size: 70px;
+    text-align: center;
+
+}
+.rest:hover{
+    background-color: rgb(20, 224, 197);
+    cursor: pointer;
+
+}
+.restnone{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        orientation:landscape;
+    }
+}
+
+
